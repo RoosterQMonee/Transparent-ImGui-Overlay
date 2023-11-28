@@ -2,8 +2,6 @@
 
 Transparent overlay thing
 
-![](Demo/OverlayDemo.mp4)
-
 ![](Demo/Overlay.jpg)
 
 ## Overview
