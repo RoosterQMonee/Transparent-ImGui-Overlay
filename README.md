@@ -22,7 +22,7 @@ void Draw(void) // create rendering function (no ::Begin or ::End required)
 
 int main()
 {
-  //                       Func   W     H      <-  W / H are the Window dimensions, not overlay.
+	//                       Func   W     H      <-  W / H are the Window dimensions, not overlay.
 	Overlay window = Overlay(&Draw, 1920, 1080); // Create Overlay
 
 	window.Start(); // start overlay (starts a loop, you may want to use a thread to continue in main)
