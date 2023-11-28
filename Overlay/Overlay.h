@@ -16,11 +16,10 @@ class Overlay
 
 	public:
 		Overlay(void (*render_function)(void),
-				int WindowWidth, int WindowHeight,
+				int WindowWidth, int WindowHeight, bool displayFPS,
 				const char* OverlayTitle = "Overlay",
 				const char* WindowClass = "OverlayClass",
-				const char* WindowName = "Windowless Overlay",
-				bool displayFPS = true);
+				const char* WindowName = "Windowless Overlay");
 		~Overlay();
 
 		void Start();
