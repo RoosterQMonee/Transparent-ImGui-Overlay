@@ -2,9 +2,9 @@
 
 Transparent overlay thing
 
-![](Demo/DemoVideo.mp4)
+![](Demo/OverlayDemo.mp4)
 
-![](Demo/Demo.png)
+![](Demo/Overlay.jpg)
 
 ## Overview
 
