@@ -2,6 +2,10 @@
 
 Transparent overlay thing
 
+![](Demo/DemoVideo.mp4)
+
+![](Demo/Demo.png)
+
 ## Overview
 
 cool transparent overlay thingy i made in like 2 hours. i made it to make menus easier.
