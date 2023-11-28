@@ -16,9 +16,8 @@ LPWSTR cctow(const char* str)
 }
 
 
-Overlay::Overlay(void (*render_function)(void), int WindowWidth, int WindowHeight,
-				const char* OverlayTitle, const char* WindowClass, const char* WindowName,
-				bool displayFPS)
+Overlay::Overlay(void (*render_function)(void), int WindowWidth, int WindowHeight, bool displayFPS,
+				const char* OverlayTitle, const char* WindowClass, const char* WindowName)
 {
 	this->render_function = render_function;
 	this->title = OverlayTitle;
